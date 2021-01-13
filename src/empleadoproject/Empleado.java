@@ -13,7 +13,7 @@ package empleadoproject;
  */
 public class Empleado{
 
-  private String nombre;
+  private String name;
   private String apellido;
   private int edad;
   private double salario;
@@ -39,7 +39,7 @@ public class Empleado{
 
   //Metodosprivados
   private boolean compruebaNombre(){
-    if(nombre.equals(" ")){
+    if(name.equals(" ")){
       return false ;
     }
   return true ;
@@ -56,13 +56,13 @@ public class Empleado{
   
   /**
    * Contructor con 4 parámetros
-   * @param nombre  nombre del empleado
+   * @param name  name del empleado
    * @param apellido  apellido del empleado
    * @param edad  edad del empleado
    * @param salario  salario del empleado
    */
-  public Empleado (String nombre, String apellido, int edad, double salario){
-    this.nombre = nombre ;
+  public Empleado (String name, String apellido, int edad, double salario){
+    this.name = name ;
     this.apellido = apellido ;
     this.edad = edad;
     this.salario = salario;
